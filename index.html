@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Compound Interest Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class =body>
+    <header>
+      <h1>Compound Interest Calculator</h1>
+    </header>
+    <main>
+      <!-- <nav>
+        <h2>Compound interest is calculated by: </h2>
+        <h2>Total = Principal * (1 + )</h2>
+        </nav> -->
+        <form>
+          <div>Principal: </div>
+          <input id="principal" />
+          <div>Period: </div>
+          <select id="period">
+            <option value = "1">annually</option>
+            <option value = "4">quarterly</option>
+            <option value = "12">monthly</option>
+            <option value = "365">daily</option>
+          </select>
+          <div>APR: </div>
+          <div>
+              <input
+                type="range"
+                id="apr"
+                min="0.25"
+                max="50"
+                value="2.5"
+                step="0.25"
+              />
+              <output id="aprText">2.5%</output>
+          </div>
+          <div>Years: </div>
+          <input id="years" />
+        <div ><p>Interest: </p> </div>
+        <div class="output"><output id="accumulated">0</output></div>
+        <div><p>Total: </p> </div>
+        <div class="output"><output id="amount">0</output></div>
+      </form>
+      <!-- <div><img src="https://www.econlib.org/wp-content/uploads/2019/03/cash.jpg" alt="Illustration of $100 bills"> -->
+      <div><img src = "https://cdn-icons-png.flaticon.com/512/8022/8022775.png" alt = "Illustration of a bill">
+    </main>
+    <footer>
+      <div>© 2024</div>
+      <div><a href = https://codesandbox.io/p/sandbox/kjnjj6>Link to code</a></div>
+    </footer>
+  </div>
+  </body>
+</html>
