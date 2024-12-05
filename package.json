@@ -1,0 +1,15 @@
+{
+  "name": "compound interest",
+  "version": "1.0.0",
+  "description": "Homework 1 - Web App",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve"
+  },
+  "keywords": ["html", "css"],
+  "author": "Amelie Dinh, Jonathan Wong, and Matthew De Jesus",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "11.2.0"
+  }
+}
